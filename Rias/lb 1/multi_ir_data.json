@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Сведения о новых технологиях",
+        "category": "First",
+        "purchase_cost": 0,
+        "profit": 7800000,
+        "development_costs": [
+            {
+                "year": 2019,
+                "salaries": [
+                    680000,
+                    720000,
+                    800000
+                ],
+                "deductions": [
+                    176800,
+                    187200,
+                    208000
+                ],
+                "materials": 150000
+            },
+            {
+                "year": 2020,
+                "salaries": [
+                    520000
+                ],
+                "deductions": [
+                    135200
+                ],
+                "materials": 130000
+            }
+        ],
+        "servicing_costs": []
+    },
+    {
+        "name": "Решения совещаний",
+        "category": "Second",
+        "purchase_cost": 0,
+        "profit": 4500000,
+        "development_costs": [],
+        "servicing_costs": [
+            {
+                "year": 2021,
+                "salaries": [
+                    750000,
+                    600000
+                ],
+                "deductions": [
+                    195000,
+                    156000
+                ],
+                "materials": 380000
+            }
+        ]
+    },
+    {
+        "name": "Бухгалтерские документы",
+        "category": "Second",
+        "purchase_cost": 0,
+        "profit": 0,
+        "development_costs": [],
+        "servicing_costs": [
+            {
+                "year": 2022,
+                "salaries": [
+                    640000,
+                    620000
+                ],
+                "deductions": [
+                    166400,
+                    161200
+                ],
+                "materials": 330000
+            }
+        ]
+    },
+    {
+        "name": "Маркетинговые исследования",
+        "category": "First",
+        "purchase_cost": 0,
+        "profit": 3400000,
+        "development_costs": [
+            {
+                "year": 2022,
+                "salaries": [
+                    630000,
+                    730000,
+                    780000
+                ],
+                "deductions": [
+                    163800,
+                    189800,
+                    202800
+                ],
+                "materials": 150000
+            }
+        ],
+        "servicing_costs": []
+    },
+    {
+        "name": "АСУ бизнес-процессов",
+        "category": "Second",
+        "purchase_cost": 1620000,
+        "profit": 0,
+        "development_costs": [
+            {
+                "year": 2021,
+                "salaries": [
+                    740000,
+                    790000,
+                    750000
+                ],
+                "deductions": [
+                    192400,
+                    205400,
+                    195000
+                ],
+                "materials": 200000
+            }
+        ],
+        "servicing_costs": [
+            {
+                "year": 2022,
+                "salaries": [
+                    520000
+                ],
+                "deductions": [
+                    135200
+                ],
+                "materials": 200000
+            }
+        ]
+    }
+]
