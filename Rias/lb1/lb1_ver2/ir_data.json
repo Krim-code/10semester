@@ -1,0 +1,100 @@
+{
+    "ir_data": [
+      {
+        "name": "ИР №1",
+        "type": "разрабатываемый, приносящий прибыль",
+        "acquisition_year": 2018,
+        "current_year": 5,
+        "planned_lifetime": 7,
+        "development_years": {
+          "2019": {
+            "employees": [
+              {"salary": 680000, "deductions": 176800},
+              {"salary": 720000, "deductions": 187200},
+              {"salary": 800000, "deductions": 208000}
+            ],
+            "materials_costs": 0
+          },
+          "2020": {
+            "employees": [
+              {"salary": 520000, "deductions": 135200}
+            ],
+            "materials_costs": 0
+          }
+        },
+        "profit": 7800000
+      },
+      {
+        "name": "ИР №2",
+        "type": "обслуживаемый, приносящий прибыль",
+        "acquisition_year": 2021,
+        "current_year": 2,
+        "planned_lifetime": 2,
+        "maintenance": {
+          "employees": [
+            {"salary": 750000, "deductions": 195000},
+            {"salary": 600000, "deductions": 156000}
+          ],
+          "materials_costs": 380000
+        },
+        "profit": 4500000
+      },
+      {
+        "name": "ИР №3",
+        "type": "обслуживаемый",
+        "acquisition_year": 2018,
+        "current_year": 5,
+        "planned_lifetime": 3,
+        "maintenance": {
+          "employees": [
+            {"salary": 640000, "deductions": 166400},
+            {"salary": 620000, "deductions": 161200}
+          ],
+          "materials_costs": 330000
+        }
+      },
+      {
+        "name": "ИР №4",
+        "type": "разрабатываемый, приносящий прибыль",
+        "acquisition_year": 2022,
+        "current_year": 1,
+        "planned_lifetime": 1,
+        "development_years": {
+          "2022": {
+            "employees": [
+              {"salary": 630000, "deductions": 163800},
+              {"salary": 730000, "deductions": 189800},
+              {"salary": 780000, "deductions": 202800}
+            ],
+            "materials_costs": 0
+          }
+        },
+        "profit": 3400000
+      },
+      {
+        "name": "ИР №5",
+        "type": "приобретаемый, разрабатываемый, обслуживаемый",
+        "acquisition_year": 2022,
+        "current_year": 1,
+        "planned_lifetime": 2,
+        "acquisition_cost": 1620000,
+        "development_years": {
+          "2021": {
+            "employees": [
+              {"salary": 740000, "deductions": 192400},
+              {"salary": 790000, "deductions": 205400},
+              {"salary": 750000, "deductions": 195000}
+            ],
+            "materials_costs": 0
+          }
+        },
+        "maintenance": {
+          "employees": [
+            {"salary": 520000, "deductions": 135200}
+          ],
+          "materials_costs": 200000
+        }
+      }
+    ]
+  }
+  
